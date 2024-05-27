@@ -1,0 +1,123 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html{
+    background-color: rgb(0, 57, 179);
+}
+
+.profilePic{
+    width: 4em;
+}
+
+/* .createPost{
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+} */
+.createPostContainer{
+    border: 5px rgb(6, 33, 90) solid;
+    background-color: rgb(10, 51, 141);
+    width: 50vh;
+    padding: 1em;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+form{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    /* height: 35vh; */
+    align-items: center;
+    justify-content: center;
+    /* width: 35vw; */
+    /* margin: 1em; */
+}
+
+input,textarea{
+    border: 5px rgb(6, 29, 80) solid;
+    width: 20em;
+    font-size: 1.5rem;
+    margin-block: 0.2em;
+    padding: 0.4em;
+    border-radius: 0.2em;
+}
+
+.postBtn{
+    background-color: rgb(4, 71, 214);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 5em;
+    border-radius: 0.2em;
+}
+
+
+/* -- existing posts here -- */
+
+.postSection{
+    border: 1px red solid;
+    border: 5px rgb(6, 33, 90) solid;
+    background-color: rgb(10, 51, 141);
+    margin: 4em auto;
+    padding: 1em;
+    width: 90vw;
+    border-radius: 0.5em;
+}
+
+.postsContainer{
+    /* border: 1px red solid; */
+    color: white;
+    font-size: 2rem;
+    /* width: 90vw; */
+    margin: 1em 0;
+}
+
+h1{
+    /* border: 1px red solid; */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.profilePic>svg{
+    width: 2.5em;
+}
+
+.post{
+    border: 5px rgb(29, 91, 223) solid;
+    background-color: rgb(5, 30, 83);
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-block: 1em;
+}
+
+.profileInfo{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    margin-block: 0.5em;
+}
+
+.profilePic{
+    display: flex;
+    align-items: center;
+}
+
+.postUserName{
+    display: flex;
+    align-items: flex-start;
+}
+
+.postTitle{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
